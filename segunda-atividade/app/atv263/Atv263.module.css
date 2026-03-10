@@ -1,0 +1,58 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.vitrine {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.cardProduto {
+  background-color: green;
+  color: white;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.placeholderImagem {
+  background-color: #ffffff33;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: 1px dashed white;
+}
+
+.rodape {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  width: 100%;
+}
+
+.containerImagem {
+  position: relative; 
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  background-color: white; 
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.imagemCalçado {
+  object-fit: contain; 
+  padding: 5px;
+}

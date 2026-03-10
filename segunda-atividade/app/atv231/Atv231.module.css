@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 50px;
+  background-color: #f0f0f0;
+}
+
+.blocoVermelho {
+  background-color: red;
+  width: 700px;
+  padding: 0px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.blocoVerde {
+  background-color: green;
+  width: 700px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}

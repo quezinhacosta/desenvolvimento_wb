@@ -1,0 +1,20 @@
+.paragrafoArial {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.linkTimes {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  margin-right: 25px;
+  color: #000;
+}
+
+.linkTimes:hover {
+  color: #555;
+}
